@@ -11,10 +11,10 @@ function App()
     return Math.pow(num, 3);
   }
 
-  const result = useMemo(() =>  cube(number) , [number])
+  // const result = useMemo(() =>  cube(number) , [number])
+  const result = cube(number)
 
 
-  // const result = cube(number);
   return (
     <>
       <input
